@@ -134,28 +134,6 @@ Make sure you have Node.js (version 18 or higher) and npm installed.
 
 ---
 
-## 🚀 Deployment
-
-### Backend (Render)
-1. Select "Web Service" on [Render](https://render.com).
-2. Connect your Git repository.
-3. Configure the settings:
-   - **Build Command:** `npm install` (run inside server folder)
-   - **Start Command:** `node server.js`
-4. Add Environment Variables:
-   - `MONGODB_URI`
-   - `NODE_ENV=production`
-   - `CLIENT_URL=https://your-vercel-app-url.vercel.app`
-
-### Frontend (Vercel)
-1. Import your project repository on [Vercel](https://vercel.com).
-2. Set the root directory configuration to `client`.
-3. Configure Environment Variables:
-   - `VITE_API_BASE_URL=https://your-render-api-url.onrender.com/api`
-4. Click Deploy.
-
----
-
 ## 📷 Screenshots Placeholder
 
 *Dashboard UI (Light Mode / Dark Mode, Responsive Mobile layout):*
